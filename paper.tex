@@ -1,0 +1,36 @@
+\documentclass[superscriptaddress, twocolumn]{revtex4}
+\begin{document}
+\title{An efficient implementation of a general-relativistic
+  hydrodynamics code for modern high-performance computing
+  architectures}
+\author{Erik Schnetter}
+\author{Roland Haas}
+\date{2017-05-15}
+\begin{abstract}
+  We discuss an efficient implementation of a general-relativistic
+  hydrodynamics code for modern high-performance computing
+  architectures. Our approach should generalize to a large class of
+  algorithms for solving systems of hyperbolic partial differential
+  equations (PDEs). Our code is available as open source.
+\end{abstract}
+\maketitle
+
+\section{Physics Background}
+missing: equation of state lookup
+
+\section{Optimizations}
+While implementing the algorithm above, we consider the following
+optimizations:
+\subsection{Multi-threading}
+\subsection{Loop tiling}
+data cache usage
+\subsection{SIMD vectorization}
+\subsection{Loop unrolling}
+instruction cache usage
+\subsection{Avoiding expensive operations}
+division, square root, integer multiplication
+
+\section{Code}
+show parts of the code; escribe relevant implementation details.
+
+\end{document}
